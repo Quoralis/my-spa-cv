@@ -1,6 +1,8 @@
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  width: 100%;
+@import "tailwindcss";
+button {
+  cursor: pointer;
+}
+
+.links {
+  @apply text-zinc-700 hover:text-zinc-600 font-medium transition-colors duration-200;
 }

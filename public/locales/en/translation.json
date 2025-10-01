@@ -1,0 +1,37 @@
+{
+  "contacts": {
+    "title": "CONTACTS",
+    "location": "Belgrade, Serbia"
+  },
+  "skills": {
+    "title": "SKILLS",
+    "core": "Core: JavaScript, TypeScript, HTML5, SCSS",
+    "frameworks": "Frameworks: React, Next.js, RDK",
+    "ui": "UI: Tailwind, Bootstrap",
+    "tools": "Tools: GitHub, ESLint, Prettier, Husky",
+    "testing": "Testing: Vitest",
+    "design": "Design: Figma",
+    "ide": "IDE: WebStorm"
+  },
+  "education": {
+    "title": "EDUCATION",
+    "school": "The Rolling Scopes School:",
+    "frontend": "Front-End Q2 2024 – Q3 2025",
+    "react": "React — Sep 2025"
+  },
+  "about": {
+    "title": "ABOUT",
+    "text": "Front-End Developer with experience in React, Next.js, and modern web technologies. Skilled in building responsive and accessible interfaces, with focus on clean code and performance optimization. Completed 2.5 years of intensive training at The Rolling Scopes School, gaining solid knowledge and practical experience through collaborative projects."
+  },
+  "projects": {
+    "title": "PRACTICAL EXPERIENCE",
+    "subtitle": "Projects",
+    "items": [
+      "Developed several projects in pure JavaScript and TypeScript with pixel-perfect layouts.",
+      "Built browser games and a chat app using WebSockets.",
+      "Created an e-commerce store with eCommerceTools.",
+      "Final React project: REST API client (Postman-like)."
+    ],
+    "view": "View"
+  }
+}
