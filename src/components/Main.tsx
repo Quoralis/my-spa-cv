@@ -4,6 +4,7 @@ import Education from "../sections/Education/Education";
 import About from "../sections/About";
 import Projects from "../sections/Projects";
 import Certificates from "../sections/Certificates/Certificates";
+import SoftSkills from "../sections/SoftSkills";
 
 export default function Main() {
   return (
@@ -11,6 +12,7 @@ export default function Main() {
       <aside className="bg-stone-400 md:col-span-1 space-y-3 p-4 rounded-xl shadow">
         <Contacts />
         <TechStack />
+        <SoftSkills />
         <Education />
       </aside>
 

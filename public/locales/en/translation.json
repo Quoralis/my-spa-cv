@@ -1,10 +1,10 @@
 {
   "contacts": {
-    "title": "CONTACTS",
+    "title": "Contacts",
     "location": "Belgrade, Serbia"
   },
   "skills": {
-    "title": "SKILLS",
+    "title": "Stack",
     "core": "Core: JavaScript, TypeScript, HTML5, SCSS",
     "frameworks": "Frameworks: React, Next.js, RDK",
     "ui": "UI: Tailwind, Bootstrap",
@@ -13,18 +13,44 @@
     "design": "Design: Figma",
     "ide": "IDE: WebStorm"
   },
+  "softSkills": {
+    "title": "Soft skills",
+    "items": [
+      "Responsibility and attention to detail",
+      "Effective teamwork and communication",
+      "Process organization and task management",
+      "Quick adaptation to new technologies",
+      "Leadership and mentoring"
+    ]
+  },
   "education": {
     "title": "EDUCATION",
-    "school": "The Rolling Scopes School:",
-    "frontend": "Front-End Q2 2024 – Q3 2025",
-    "react": "React — Sep 2025"
+    "items": [
+      {
+        "title": "Moscow Financial and Law University (MFUA)",
+        "degree": "Bachelor’s Degree in Management",
+        "period": "2007 – 2012",
+        "icon": "/icons/mfua-logo.png",
+        "alt": "University icon",
+        "isLink": false
+      },
+      {
+        "title": "The Rolling Scopes School",
+        "degree": "",
+        "period": "Front-End Q2 2024 – Q3 2025; React — Sep 2025",
+        "icon": "/icons/rss-logo.svg",
+        "alt": "RS School logo",
+        "isLink": true,
+        "href": "https://rs.school/"
+      }
+    ]
   },
   "about": {
-    "title": "ABOUT",
-    "text": "Front-End Developer with experience in React, Next.js, and modern web technologies. Skilled in building responsive and accessible interfaces, with focus on clean code and performance optimization. Completed 2.5 years of intensive training at The Rolling Scopes School, gaining solid knowledge and practical experience through collaborative projects."
+    "title": "About",
+    "text": "Frontend developer with experience in React, Next.js, and modern web technologies. I create adaptive and accessible interfaces with a focus on clean code and performance optimization. Completed 2.5 years of intensive training at The Rolling Scopes School, where I gained fundamental knowledge and hands-on experience in team projects. Previously worked as a Project Team Lead, which allowed me to develop skills in process management, effective teamwork, and taking responsibility for results."
   },
   "projects": {
-    "title": "PRACTICAL EXPERIENCE",
+    "title": "Practical Experience",
     "subtitle": "Projects",
     "items": [
       "Developed several projects in pure JavaScript and TypeScript with pixel-perfect layouts.",
@@ -33,5 +59,6 @@
       "Final React project: REST API client (Postman-like)."
     ],
     "view": "View"
-  }
+  },
+  "certificates": "Certificates"
 }

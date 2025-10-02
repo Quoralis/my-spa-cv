@@ -1,9 +1,12 @@
 import { certificatesData } from "./certificatesData";
+import { useTranslation } from "react-i18next";
 
 export default function Certificates() {
+  const { t } = useTranslation();
+
   return (
     <section className="bg-white rounded-xl shadow p-6">
-      <h2 className="text-lg font-semibold">{certificatesData.title}</h2>
+      <h2 className="text-lg font-semibold">{t("certificates")}</h2>
 
       <div className="mt-4 grid grid-cols-2 gap-6">
         {certificatesData.url.map((url, index) => (
