@@ -35,9 +35,10 @@ export default function Projects() {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-stone-400 font-medium transition-colors"
+                className="flex items-center gap-1 text-gray-400 hover:text-yellow-500 font-medium transition-colors"
               >
                 {t("projects.view") || "Открыть"}
+                <span aria-hidden>↗</span>
               </a>
             </li>
           ))}
